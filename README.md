@@ -13,6 +13,10 @@ Sistem ini dibangun menggunakan teknologi :
 * Database : PostgreSQL 14
 * Authentication : Token-based Authentication
 
+## Tes Backend
+* Menggunakkan Postman (install terlebih dahulu di VS Code *php artisan install:api* agar token login bisa muncul)
+* Password dalam database bisa kalian ubah dengan cara melakukan hash di VS Code dengan command *php artisan tinker* lalu ketik *Hash::make('isi password kalian');
+
 ## (Workflow)
 Sistem ini mengakomodasi alur kerja pengadaan barang sebagai berikut:
 1. Karyawan mengajukan permintaan barang/jasa
